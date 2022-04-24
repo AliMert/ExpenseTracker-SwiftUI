@@ -27,9 +27,9 @@ struct ContentView: View {
                         CardView {
                             VStack(alignment: .leading) {
                                 ChartLabel(
-                                    totalExpenses.formatted(.currency(code: "TRY")),
+                                    totalExpenses.formatted(.currency(code: "USD")),
                                     type: .title,
-                                    format: "\(Locale(identifier: "tr_TR").currencySymbol ?? "")%.02f"
+                                    format: "$%.02f"
                                 )
                                 LineChart()
                             }
