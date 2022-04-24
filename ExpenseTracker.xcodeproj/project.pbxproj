@@ -7,18 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E151B81A28156FE3001BE4CC /* response.json in Resources */ = {isa = PBXBuildFile; fileRef = E151B81928156FE3001BE4CC /* response.json */; };
 		E16F70FE280B095000AE488B /* ExpenseTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F70FD280B095000AE488B /* ExpenseTrackerApp.swift */; };
 		E16F7100280B095000AE488B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F70FF280B095000AE488B /* ContentView.swift */; };
 		E16F7102280B095200AE488B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E16F7101280B095200AE488B /* Assets.xcassets */; };
 		E16F7105280B095200AE488B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E16F7104280B095200AE488B /* Preview Assets.xcassets */; };
+		E16F710C280B109100AE488B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F710B280B109100AE488B /* Extensions.swift */; };
+		E16F710E280B257400AE488B /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F710D280B257400AE488B /* TransactionModel.swift */; };
+		E16F7110280B274A00AE488B /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F710F280B274A00AE488B /* PreviewData.swift */; };
+		E16F7112280B284700AE488B /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F7111280B284700AE488B /* TransactionRow.swift */; };
+		E16F7115280B584E00AE488B /* SwiftUIFontIcon in Frameworks */ = {isa = PBXBuildFile; productRef = E16F7114280B584E00AE488B /* SwiftUIFontIcon */; };
+		E16F7117280B5AFC00AE488B /* TransactionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F7116280B5AFC00AE488B /* TransactionListViewModel.swift */; };
+		E175B6412814741300FF02E6 /* TransactionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E175B6402814741300FF02E6 /* TransactionListView.swift */; };
+		E175B64428147BED00FF02E6 /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = E175B64328147BED00FF02E6 /* Collections */; };
+		E175B64728147D5E00FF02E6 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = E175B64628147D5E00FF02E6 /* SwiftUICharts */; };
+		E1E32488281460A600879C06 /* RecentTransactionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E32487281460A600879C06 /* RecentTransactionListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E151B81928156FE3001BE4CC /* response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = response.json; sourceTree = "<group>"; };
 		E16F70FA280B095000AE488B /* ExpenseTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpenseTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16F70FD280B095000AE488B /* ExpenseTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerApp.swift; sourceTree = "<group>"; };
 		E16F70FF280B095000AE488B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E16F7101280B095200AE488B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E16F7104280B095200AE488B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E16F710B280B109100AE488B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E16F710D280B257400AE488B /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
+		E16F710F280B274A00AE488B /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		E16F7111280B284700AE488B /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
+		E16F7116280B5AFC00AE488B /* TransactionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewModel.swift; sourceTree = "<group>"; };
+		E175B6402814741300FF02E6 /* TransactionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListView.swift; sourceTree = "<group>"; };
+		E1E32487281460A600879C06 /* RecentTransactionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTransactionListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +45,81 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E175B64728147D5E00FF02E6 /* SwiftUICharts in Frameworks */,
+				E175B64428147BED00FF02E6 /* Collections in Frameworks */,
+				E16F7115280B584E00AE488B /* SwiftUIFontIcon in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E151B81128156E09001BE4CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E16F710D280B257400AE488B /* TransactionModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E151B81228156E10001BE4CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E16F70FF280B095000AE488B /* ContentView.swift */,
+				E16F7111280B284700AE488B /* TransactionRow.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E151B81328156E18001BE4CC /* RecentTransactionList */ = {
+			isa = PBXGroup;
+			children = (
+				E151B81728156EFA001BE4CC /* View */,
+			);
+			path = RecentTransactionList;
+			sourceTree = "<group>";
+		};
+		E151B81428156E5D001BE4CC /* TransactionList */ = {
+			isa = PBXGroup;
+			children = (
+				E151B81628156EE2001BE4CC /* View */,
+			);
+			path = TransactionList;
+			sourceTree = "<group>";
+		};
+		E151B81528156E95001BE4CC /* SubModules */ = {
+			isa = PBXGroup;
+			children = (
+				E151B81328156E18001BE4CC /* RecentTransactionList */,
+				E151B81428156E5D001BE4CC /* TransactionList */,
+			);
+			path = SubModules;
+			sourceTree = "<group>";
+		};
+		E151B81628156EE2001BE4CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E175B6402814741300FF02E6 /* TransactionListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E151B81728156EFA001BE4CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E1E32487281460A600879C06 /* RecentTransactionListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E151B81828156F1B001BE4CC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E16F7116280B5AFC00AE488B /* TransactionListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		E16F70F1280B095000AE488B = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +140,11 @@
 			isa = PBXGroup;
 			children = (
 				E16F70FD280B095000AE488B /* ExpenseTrackerApp.swift */,
-				E16F70FF280B095000AE488B /* ContentView.swift */,
+				E151B81128156E09001BE4CC /* Model */,
+				E151B81228156E10001BE4CC /* View */,
+				E151B81828156F1B001BE4CC /* ViewModel */,
+				E151B81528156E95001BE4CC /* SubModules */,
+				E16F710B280B109100AE488B /* Extensions.swift */,
 				E16F7101280B095200AE488B /* Assets.xcassets */,
 				E16F7103280B095200AE488B /* Preview Content */,
 			);
@@ -63,6 +155,8 @@
 			isa = PBXGroup;
 			children = (
 				E16F7104280B095200AE488B /* Preview Assets.xcassets */,
+				E16F710F280B274A00AE488B /* PreviewData.swift */,
+				E151B81928156FE3001BE4CC /* response.json */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -83,6 +177,11 @@
 			dependencies = (
 			);
 			name = ExpenseTracker;
+			packageProductDependencies = (
+				E16F7114280B584E00AE488B /* SwiftUIFontIcon */,
+				E175B64328147BED00FF02E6 /* Collections */,
+				E175B64628147D5E00FF02E6 /* SwiftUICharts */,
+			);
 			productName = ExpenseTracker;
 			productReference = E16F70FA280B095000AE488B /* ExpenseTracker.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +210,11 @@
 				Base,
 			);
 			mainGroup = E16F70F1280B095000AE488B;
+			packageReferences = (
+				E16F7113280B584E00AE488B /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */,
+				E175B64228147BED00FF02E6 /* XCRemoteSwiftPackageReference "swift-collections" */,
+				E175B64528147D5E00FF02E6 /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
 			productRefGroup = E16F70FB280B095000AE488B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +231,7 @@
 			files = (
 				E16F7105280B095200AE488B /* Preview Assets.xcassets in Resources */,
 				E16F7102280B095200AE488B /* Assets.xcassets in Resources */,
+				E151B81A28156FE3001BE4CC /* response.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +242,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1E32488281460A600879C06 /* RecentTransactionListView.swift in Sources */,
+				E16F7110280B274A00AE488B /* PreviewData.swift in Sources */,
+				E175B6412814741300FF02E6 /* TransactionListView.swift in Sources */,
+				E16F710E280B257400AE488B /* TransactionModel.swift in Sources */,
 				E16F7100280B095000AE488B /* ContentView.swift in Sources */,
+				E16F7112280B284700AE488B /* TransactionRow.swift in Sources */,
+				E16F710C280B109100AE488B /* Extensions.swift in Sources */,
+				E16F7117280B5AFC00AE488B /* TransactionListViewModel.swift in Sources */,
 				E16F70FE280B095000AE488B /* ExpenseTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +453,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E16F7113280B584E00AE488B /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/huybuidac/SwiftUIFontIcon";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		E175B64228147BED00FF02E6 /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.2;
+			};
+		};
+		E175B64528147D5E00FF02E6 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = exactVersion;
+				version = "2.0.0-beta.2";
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E16F7114280B584E00AE488B /* SwiftUIFontIcon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E16F7113280B584E00AE488B /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */;
+			productName = SwiftUIFontIcon;
+		};
+		E175B64328147BED00FF02E6 /* Collections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E175B64228147BED00FF02E6 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = Collections;
+		};
+		E175B64628147D5E00FF02E6 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E175B64528147D5E00FF02E6 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E16F70F2280B095000AE488B /* Project object */;
 }
